@@ -10,6 +10,13 @@ const bookmarksNavLink = document.querySelector('[data-js=bookmarksNavLink]')
 const createNavLink = document.querySelector('[data-js=createNavLink]')
 const profileNavLink = document.querySelector('[data-js=profileNavLink]')
 
+const bookmarkSvgPath = document.querySelector('[data-js=bookmarkSvgPath]')
+
+bookmarkSvgPath.addEventListener('click', () => {
+  console.log('test')
+  bookmarkSvgPath.classList.toggle('bookmarked')
+})
+
 homeNavLink.addEventListener('click', () => {
   hideMains()
   showMain(homeMain)
