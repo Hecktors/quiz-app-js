@@ -9,11 +9,11 @@
   </head>
   <body>
     <header class="header center">
-     <h1 data-js="headerTitle">Quiz-App</h1>
+      <h1 data-js="headerTitle">Quiz-App</h1>
     </header>
-<!-- Home -->
-<main data-js="homeMain" class="main-grid--1column">
-  <section class="card">
+    <!-- Home -->
+    <main data-js="homeMain" class="main-grid--1column">
+      <section class="card">
         <h2 class="card__title">Question:</h2>
         <svg
           class="card__bookmark-icon"
@@ -124,7 +124,7 @@
       </section>
     </main>
 
-<!-- Bookmarks -->
+    <!-- Bookmarks -->
     <main data-js="bookmarksMain" class="main-grid--1column d-none">
       <section class="card">
         <h2 class="card__title">Question:</h2>
@@ -182,76 +182,73 @@
       </section>
     </main>
 
-<!-- Create -->
-<main data-js="createMain" class="main-grid--1column d-none
-  <form class="form" action="">
-    <label for="textarea1"
-      >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-      placeat, reiciendis natus dolor!</label
-    >
-    <textarea
-      class="form__text-input"
-      name="textarea1"
-      id="textarea1"
-      cols="30"
-      rows="10"
-      required
-    ></textarea>
+    <!-- Create -->
+    <main data-js="createMain" class="main-grid--1column d-none">
+      <form data-js="mainForm" class="form">
+        <label for="textarea1"
+          >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+          placeat, reiciendis natus dolor!</label
+        >
+        <textarea
+          class="form__text-input"
+          name="textarea1"
+          id="textarea1"
+          cols="30"
+          rows="10"
+        ></textarea>
 
-    <label for="textarea2"
-      >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-      placeat, reiciendis natus dolor!</label
-    >
-    <textarea
-      class="form__text-input"
-      name="textarea2"
-      id="textarea2"
-      cols="30"
-      rows="10"
-      required
-    ></textarea>
+        <label for="textarea2"
+          >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+          placeat, reiciendis natus dolor!</label
+        >
+        <textarea
+          class="form__text-input"
+          name="textarea2"
+          id="textarea2"
+          cols="30"
+          rows="10"
+        ></textarea>
 
-    <label for="tags-input"
-      >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
-      placeat, reiciendis natus dolor!</label
-    >
-    <input
-      class="form__text-input"
-      type="text"
-      name="tags-input"
-      id="tags-input"
-      required
-    />
+        <label for="tags-input"
+          >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos
+          placeat, reiciendis natus dolor!</label
+        >
+        <input
+          class="form__text-input"
+          type="text"
+          name="tags-input"
+          id="tags-input"
+        />
 
-    <input class="button" type="submit" value="Submit" />
-  </form>
-</main>
+        <input class="button" type="submit" value="Submit" />
+      </form>
+    </main>
 
-<!-- Profile -->
-<main data-js="profileMain" class="main-grid--2columns d-none">
-  <img
-    class="profile-picture"
-    src="images/profile-picture.png"
-    alt="Profile Picture"
-  />
-  <h3 class="center">Jana Bremer</h3>
+    <!-- Profile -->
+    <main data-js="profileMain" class="main-grid--2columns d-none">
+      <img
+        class="profile-picture"
+        src="images/profile-picture.png"
+        alt="Profile Picture"
+      />
+      <h3 class="center">Jana Bremer</h3>
 
-  <p class="grid-span">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-    harum eaque autem. Vitae veniam quidem temporibus, quasi omnis, enim sit
-    perferendis eligendi deserunt cumque, accusamus placeat. Quidem iusto
-    possimus ad.
-  </p>
+      <p class="grid-span">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
+        harum eaque autem. Vitae veniam quidem temporibus, quasi omnis, enim sit
+        perferendis eligendi deserunt cumque, accusamus placeat. Quidem iusto
+        possimus ad.
+      </p>
 
-  <h3 class="grid-span">Tags about myself</h3>
-  <ul class="tag-list grid-span">
-    <li class="tag-list__item">tag1</li>
-    <li class="tag-list__item">tag2</li>
-    <li class="tag-list__item">tag3</li>
-    <li class="tag-list__item">tag4</li>
-  </ul>
-  <button class="button grid-span">Logout</button>
-</main>
+      <h3 class="grid-span">Tags about myself</h3>
+      <ul class="tag-list grid-span">
+        <li class="tag-list__item">tag1</li>
+        <li class="tag-list__item">tag2</li>
+        <li class="tag-list__item">tag3</li>
+        <li class="tag-list__item">tag4</li>
+      </ul>
+      <button class="button grid-span">Logout</button>
+    </main>
 
     <footer class="navigation">
       <a data-js="homeNavLink" class="navigation__link center">

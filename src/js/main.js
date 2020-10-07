@@ -12,8 +12,14 @@ const profileNavLink = document.querySelector('[data-js=profileNavLink]')
 
 const bookmarkSvgPath = document.querySelector('[data-js=bookmarkSvgPath]')
 
+const mainForm = document.querySelector('[data-js=mainForm]')
+
+mainForm.addEventListener('submit', (event) => {
+  event.preventDefault()
+  mainForm.reset()
+})
+
 bookmarkSvgPath.addEventListener('click', () => {
-  console.log('test')
   bookmarkSvgPath.classList.toggle('bookmarked')
 })
 
